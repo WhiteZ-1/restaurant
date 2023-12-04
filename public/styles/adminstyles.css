@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.dasboard_header{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+}
+
+.dashboard_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: white;
+}
+.container{
+    display: flex;
+}
+.dashboard_side_nav{
+    background-color: rgb(174, 172, 170);
+    color: white;
+    width: 20vw;
+    height: 90vh;
+    padding: 1rem 0;
+}
+
+.side_nav_items li{
+    padding: 1rem 1rem;
+}
+.side_nav_items li a{
+    color: black;
+    width: 100%;
+}
+.logout_btn{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.side_nav_items li:hover{
+    cursor: pointer;
+    background-color:rgb(148, 146, 144) ;
+    border-radius: 5px;
+}
+
+.main{
+    width: 80vw;
+    height: 90vh;
+}
+
+.admin_menu_page{
+    text-align: center;
+}
+.menu_form{
+    margin-top: 2rem;
+}
+
+.admin_menu_dish_add{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+}
+.admin_menu_dish_add label{
+    font-size: 1.125rem;
+    padding: 1rem;
+}
+
+.admin_menu_dish_add input, textarea{
+    margin-top: 0.5rem;
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    border-radius: 0.2rem;
+    border: 0.1px solid gray;
+}
+
+.admin_menu_dish_add input:focus, select:focus{
+    border-color: red;
+    outline: none;
+}
+
+.chef_recommend_option{
+    margin: 1rem 0;
+    padding: 1rem;
+}
+
+.submit{
+    margin-top: 2rem;
+    color:red;
+}
+
+.submit:hover{
+    cursor: pointer;
+    background-color: rgb(208, 105, 105);
+    color: white;
+}
+
+.menuItems{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.each_menu_Items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:auto;
+    padding: 1rem;
+    width: 80%;
+    border-bottom: 1px solid gray;
+    font-size: 1.25rem;
+}
+
+.each_menu_Items button{
+    display: flex;
+    padding: 0.5rem;
+    margin:0 1rem;
+    
+}
+
+.menuItems_btn{
+    display: flex;
+}
+
+.admin_index_page h2{
+    text-align: center;
+    padding-top: 1rem;
+}
